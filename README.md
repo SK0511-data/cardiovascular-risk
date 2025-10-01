@@ -8,6 +8,17 @@ This project predicts cardiovascular risk by leveraging advanced machine learnin
 - Capture complex relationships between lifestyle factors and cardiovascular outcomes.  
 - Provide insights for early detection and personalized health recommendations.
 
+## Data
+
+This project uses health and lifestyle data to predict cardiovascular risk. 
+
+- **Source:** [Mention source if public, or “Proprietary dataset” if private]  
+- **Content:** The dataset includes features such as age, gender, BMI, blood pressure, cholesterol levels, smoking habits, physical activity, and other lifestyle factors.  
+- **Size:** Number of records and features (e.g., 5,000 rows × 15 columns).  
+- **Preprocessing:** Missing values were handled, categorical features encoded, and data normalized before modeling.  
+
+> Note: For privacy reasons, a **sample dataset** or synthetic data is included in the repository to demonstrate model functionality.
+
 ## Methods / Approach  
 - **Data preprocessing:** Cleaned and structured health and lifestyle datasets.  
 - **Models used:**  
