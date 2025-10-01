@@ -17,9 +17,9 @@ This project predicts cardiovascular risk by leveraging advanced machine learnin
 - **Evaluation:** Compared model performance using metrics like accuracy, recall, and ROC-AUC.
 
 ## Visuals
-- **Key visualizations are included in the images/folder:**
-  -Feature Importance: feature_importance.png
-  -Correlation Heatmap: correlation_heatmap.png 
+Key visualizations included in the `images/` folder:
+- Feature Importance: ![Feature Importance](feature_imp.png)
+- Correlation Heatmap: ![Correlation Heatmap](correlation_heatmap.png)
 
 ## Key Findings  
 - Advanced ML/DL models effectively capture nonlinear patterns in cardiovascular risk factors.  
