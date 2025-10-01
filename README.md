@@ -73,4 +73,5 @@ y_pred = model.predict(X_test)
 You can run notebooks from the `notebooks/` folder or Python scripts from the `src/` directory.
 
  ## License
-- Thank you to all contributors and collaborators!
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE file for details.
+
