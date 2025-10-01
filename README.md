@@ -1,87 +1,44 @@
-# Cardiovascular Risk Project
+# Cardiovascular Risk Prediction project
 
-This project aims to analyze and predict cardiovascular risk factors using various data analysis techniques and machine learning algorithms.
+**Description:**  
+This project predicts cardiovascular risk by leveraging advanced machine learning and deep learning techniques to uncover complex nonlinear relationships in lifestyle and health data, aiming to improve early detection and personalized risk assessment.
 
+## Aim / Objectives  
+- Explore advanced ML/DL models to improve cardiovascular risk prediction.  
+- Capture complex relationships between lifestyle factors and cardiovascular outcomes.  
+- Provide insights for early detection and personalized health recommendations.
+
+## Methods / Approach  
+- **Data preprocessing:** Cleaned and structured health and lifestyle datasets.  
+- **Models used:**  
+  - Extreme Gradient Boosting (XGBoost)  
+  - Deep Neural Networks (DNNs)  
+  - Keras Neural Networks with KerasTuner for hyperparameter optimization  
+- **Evaluation:** Compared model performance using metrics like accuracy, recall, and ROC-AUC.
+
+## Key Findings  
+- Advanced ML/DL models effectively capture nonlinear patterns in cardiovascular risk factors.  
+- Deep learning models showed improved accuracy and recall over traditional models.  
+- Gradient boosting offered scalable and interpretable performance.
 ## Project Structure
 
-```
 cardiovascular-risk-prediction/
 │
-├── README.md                    <- project description
-├── notebooks/                   <- your Jupyter notebooks
-├── src/                         <- Python scripts (training, evaluation, etc.)
-├── models/                      <- saved models (optional)
-├── requirements.txt             <- list of Python packages
-```
-
+├── README.md              # Project description
+├── notebooks/             # Jupyter notebooks with analysis & modeling
+├── src/                   # Python scripts for training and evaluation
+├── models/                # Saved model files (optional)
+├── requirements.txt       # Python dependencies
 ## Usage
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/SK0511-data/cardiovascular-risk.git
-   cd cardiovascular-risk
-   ```
+### 1. Clone the repository
+git clone <your-repo-URL>
+cd cardiovascular-risk-prediction
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 2. Install dependencies
+pip install -r requirements.txt
 
-3. **Run the analysis**:
-   ```bash
-   python src/main.py
-   ```
-
-## Visuals
-
-This project includes several visualizations to help interpret the data and results, such as:
-
-- Distribution plots of cardiovascular risk factors
-- Correlation heatmaps
-- ROC curves for model performance
-- Feature importance graphs
-
-You can find example visual outputs in the `notebooks/` or `images/` directory, or generated during analysis.
-To view or generate visuals, run the associated scripts or notebooks in the `notebooks/` directory.
-
-## Methods & Findings
-
-### Methods
-
-- Data preprocessing: cleaning, normalization, and feature selection
-- Exploratory Data Analysis (EDA)
-- Predictive modeling using machine learning algorithms (e.g., logistic regression, random forest)
-- Model evaluation metrics (accuracy, precision, recall, ROC-AUC)
-
-### Findings
-
-- Key risk factors identified for cardiovascular events
-- Model performance metrics and comparisons
-- Insights from data visualization
-
-Detailed methods and findings are documented in the project notebooks in the `notebooks/` directory.
-
-## How to Contribute
-
-1. **Fork the repository** on GitHub.
-2. **Create a new branch** for your feature or bug fix:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. **Make your changes** and commit them:
-   ```bash
-   git commit -m "Add some feature"
-   ```
-4. **Push to the branch**:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. **Open a Pull Request** on GitHub.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
+### 3. Run the project
+You can run notebooks from the `notebooks/` folder or Python scripts from the `src/` directory.
 
 - Thank you to all contributors and collaborators!
