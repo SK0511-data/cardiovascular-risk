@@ -23,22 +23,24 @@ This project predicts cardiovascular risk by leveraging advanced machine learnin
 ## Project Structure
 
 cardiovascular-risk-prediction/
-│
+```
 ├── README.md              # Project description
 ├── notebooks/             # Jupyter notebooks with analysis & modeling
 ├── src/                   # Python scripts for training and evaluation
 ├── models/                # Saved model files (optional)
 ├── requirements.txt       # Python dependencies
+```
 ## Usage
 
 ### 1. Clone the repository
 ```
 git clone <your-repo-URL>
 cd cardiovascular-risk-prediction.
-
- 2. Install dependencies
+```
+ ### 2. Install dependencies
 ```
 pip install -r requirements.txt
+```
 
 ### 3. Run the project
 ```
