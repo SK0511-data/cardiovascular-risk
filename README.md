@@ -16,6 +16,11 @@ This project predicts cardiovascular risk by leveraging advanced machine learnin
   - Keras Neural Networks with KerasTuner for hyperparameter optimization  
 - **Evaluation:** Compared model performance using metrics like accuracy, recall, and ROC-AUC.
 
+## Visuals
+- **Key visualizations are included in the images/folder:**
+  -Feature Importance: feature_importance.png
+  -Correlation Heatmap: correlation_heatmap.png 
+
 ## Key Findings  
 - Advanced ML/DL models effectively capture nonlinear patterns in cardiovascular risk factors.  
 - Deep learning models showed improved accuracy and recall over traditional models.  
@@ -24,11 +29,21 @@ This project predicts cardiovascular risk by leveraging advanced machine learnin
 
 cardiovascular-risk-prediction/
 ```
-├── README.md              # Project description
-├── notebooks/             # Jupyter notebooks with analysis & modeling
-├── src/                   # Python scripts for training and evaluation
-├── models/                # Saved model files (optional)
-├── requirements.txt       # Python dependencies
+├── README.md                      # Project description and summary
+├── notebooks/                     # Jupyter notebooks with analysis & key modeling snippets
+│   ├── data_preprocessing.ipynb
+│   ├── model_xgboost.ipynb
+│   └── dnn_model.ipynb
+├── src/                            # Python scripts for reusable functions and model training
+│   ├── utils.py
+│   └── train_model.py
+├── models/                         # Saved model files (optional)
+│   └── xgboost_model.pkl
+├── images/                         # Visualizations from analysis
+│   ├── feature_importance.png
+│   └── correlation_heatmap.png
+├── requirements.txt                # Python dependencies
+
 ```
 ## Usage
 
@@ -43,6 +58,17 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the project
+```
+from xgboost import XGBClassifier
+from src.train_model import load_sample_data  # optional helper function
+
+# Load sample data
+X_train, X_test, y_train, y_test = load_sample_data()
+
+# Train model
+model = XGBClassifier(n_estimators=100, max_depth=4)
+model.fit(X_train, y_train)
+y_pred = model.predict(X_test)
 ```
 You can run notebooks from the `notebooks/` folder or Python scripts from the `src/` directory.
 
