@@ -32,13 +32,17 @@ cardiovascular-risk-prediction/
 ## Usage
 
 ### 1. Clone the repository
+```
 git clone <your-repo-URL>
-cd cardiovascular-risk-prediction
+cd cardiovascular-risk-prediction.
 
-### 2. Install dependencies
+ 2. Install dependencies
+```
 pip install -r requirements.txt
 
 ### 3. Run the project
+```
 You can run notebooks from the `notebooks/` folder or Python scripts from the `src/` directory.
 
+ ## License
 - Thank you to all contributors and collaborators!
