@@ -29,6 +29,15 @@ Key visualizations included in the `images/` folder:
 - Feature Importance: ![Feature Importance](feature_imp.png)
 - Correlation Heatmap: ![Correlation Heatmap](correlation_heatmap.png)
 
+## Model Performance Comparison
+The following table summarizes the evaluation metrics for various classifiers used in the project:
+[Model Performance Comparison](model_comparison.png)
+**Insights:**
+- Random Forest achieved the highest accuracy (91.29%) and F1-score (0.89), making it the top-performing model.
+- Gradient Boosting (XGBoost) performed well with high precision and recall, indicating robust performance on imbalanced data.
+- Deep Neural Networks and MLP achieved moderate performance, highlighting the need for careful tuning of deep learning models for this dataset.
+- Traditional models like Logistic Regression, Naïve Bayes, and SVM achieved lower accuracy but high precision, which may be suitable for conservative prediction scenarios.
+
 ## Key Findings  
 - Advanced ML/DL models effectively capture nonlinear patterns in cardiovascular risk factors.  
 - Deep learning models showed improved accuracy and recall over traditional models.  
